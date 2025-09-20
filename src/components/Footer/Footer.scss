@@ -1,0 +1,17 @@
+@use '../../helpers/mixins' as *;
+
+.footer {
+    background-color: rgb(0,0,0);
+    border-radius: 0.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0rem;
+
+    p {
+        @include mySet-centerFlex();
+
+        margin-top: 0.1rem;
+        font-size: 0.8rem;
+        color: rgb(125, 125, 125);
+    }
+}

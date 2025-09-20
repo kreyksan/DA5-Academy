@@ -1,0 +1,30 @@
+@use '../../helpers/mixins.scss' as *;
+
+main {
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  li {
+    border: 2px solid rgb(14, 13, 13);
+    background-color: rgba(14, 13, 13, 0.411);
+    border-radius: 1rem;
+    list-style: none;
+    padding: 0.1rem 1rem;
+    width: 18rem;
+    height: 10rem;
+  }
+
+  p {
+    text-align: start;
+  }
+
+}

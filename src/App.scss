@@ -1,0 +1,57 @@
+:root {
+font-family: "Trebuchet MS", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #161616;
+  background: url('i.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 2rem;
+  padding-bottom: 0;
+  text-align: center;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;  
+    height: 6px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #222; 
+    border-radius: 6px;
+}
+
+button, a {
+  transition: 0.3s ease all;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  pointer-events: none;
+}

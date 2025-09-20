@@ -1,0 +1,22 @@
+@use '../../helpers/mixins.scss' as *;
+
+header {
+  @include mySet-forHeader();
+  margin-bottom: 0.8rem;
+  gap: 1rem;
+  border-radius: 1.1rem;
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+
+  span {
+    font-size: 1.1rem;
+
+    &.logoName {
+      font-weight: bold;
+    }
+  }
+
+  img {
+    width: 2rem;
+  }
+}

@@ -1,0 +1,30 @@
+@use '../../helpers/_mixins.scss' as *;
+
+.introSec {
+  @include mySet-centerFlex();
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.405);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0.5rem 1rem;
+  
+  h1 {
+    color: rgb(157, 0, 255);
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 0rem;
+    font-weight: 500;
+  }
+
+}
+
+.pre {
+  position: relative;
+  top: 1.1rem;
+  margin-top: 0rem;
+  width: 100%;
+  border-radius: 1rem;
+}

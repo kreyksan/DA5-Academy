@@ -1,0 +1,27 @@
+@use '../../helpers/mixins.scss' as *;
+
+.just-btn{
+    padding: 0.6rem 1.1rem;
+    gap: 1rem;
+    margin: 0.3rem;
+    background-color: rgba(19, 19, 19, 0.503);
+    font-size: 1.01rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2rem;
+
+    &:hover {
+        background-color: rgba(56, 56, 56, 0.364);
+    }
+
+    &:active {
+        background-color: rgba(81, 81, 81, 0.375);
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+.active {
+    border: 1px solid rgb(255, 255, 255);
+}

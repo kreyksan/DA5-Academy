@@ -1,0 +1,13 @@
+@use '../../helpers/mixins' as *;
+
+
+.tabs {
+    @include mySet-centerFlex;
+
+    background-color: rgba(20, 20, 20, 0.711);
+    border-radius: 1rem;
+    padding: 1.1rem;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 3rem;
+    margin-right: 3rem;
+}

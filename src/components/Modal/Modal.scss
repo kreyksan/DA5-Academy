@@ -1,0 +1,23 @@
+@use '../../helpers/mixins' as *;
+
+
+dialog:open {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 1rem;
+    width: 22rem;
+}
+
+dialog {
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.848);
+
+    b {
+        margin-left: 0.3rem;
+        color: rgb(190, 13, 249);
+    }
+}

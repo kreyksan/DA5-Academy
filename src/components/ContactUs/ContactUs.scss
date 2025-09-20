@@ -1,0 +1,57 @@
+@use '../../helpers/mixins' as *;
+
+.contactSec {
+
+    h1 {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        background-color: rgba(22, 22, 22, 0.6);
+        border-radius: 0.5rem;
+        padding: 1rem 1rem;
+    }
+
+    p {
+        @include mySet-centerFlex();
+
+        background-color: rgba(14, 14, 14, 0.61);
+        border: 2px solid rgb(61, 0, 0);
+        border-radius: 0.5rem;
+        padding: 0.7rem 0.8rem;
+    }
+
+    form {
+        border: 2px solid rgb(0,0,0);
+        background-color: rgba(22, 22, 22, 0.686);
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 6rem;
+        margin-right: 6rem;
+
+        label {
+            margin-top: 1.1rem;
+            font-size: 1.2rem;
+            color: rgb(255, 255, 255);
+        }
+
+        input {
+            text-align: center;
+            padding: 0.3rem ;
+            font-size: 1.1rem;
+            border: 1px solid rgb(0,0,0);
+            border-radius: 0.4rem;
+        }
+
+        Button {
+            margin: 1rem;
+            background-color: rgba(0, 0, 0, 0.471);
+            border-radius: 0.4rem;
+        }
+
+    }
+
+}

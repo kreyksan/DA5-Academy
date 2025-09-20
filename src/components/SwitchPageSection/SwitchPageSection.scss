@@ -1,0 +1,13 @@
+@use '../../helpers/mixins' as *;
+
+.switch-btns {
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.4rem;
+    background-color: rgba(0, 0, 0, 0.289);
+
+    Button {
+        margin: 0.2rem;
+        border-radius: 0.5rem;
+    }
+}

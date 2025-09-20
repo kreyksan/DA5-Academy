@@ -1,0 +1,11 @@
+@use '../../helpers/mixins' as *;
+
+
+.tabsSec {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: rgba(22, 22, 22, 0.6);
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+}
