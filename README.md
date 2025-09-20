@@ -1,5 +1,5 @@
 ## DA5 Academy
-![Home](https://github.com/kreyksan/DA5-Academy/blob/main/other/homeDA5A.jpg)
+![Home](https://github.com/kreyksan/DA5-Academy/blob/main/other/homeDA5A.png)
 
 
 <hr />
